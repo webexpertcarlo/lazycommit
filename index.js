@@ -32,7 +32,7 @@ async function generateCommitMessage(diff) {
       messages: [
         {
           role: "system",
-          content: "Generate a concise git commit message.",
+          content: "Generate a short, clear, conventional commit message (like feat, fix, docs, chore) based on the git diff. Keep it under 1 line.",
         },
         {
           role: "user",
