@@ -1,6 +1,6 @@
 # LazyCommit 🚀
 
-LazyCommit is a simple CLI tool that automatically generates meaningful Git commit messages using AI.
+AI-powered CLI that writes clean, meaningful Git commit messages for you automatically.
 
 No more writing:
 "fix stuff" 😅
