@@ -1,0 +1,11 @@
+{
+  "name": "lazycommit",
+  "version": "1.0.0",
+  "bin": {
+    "lazycommit": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
