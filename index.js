@@ -48,6 +48,11 @@ async function generateCommitMessage(diff) {
 
 async function main() {
   const diff = getGitDiff();
+
+  if (!diff.trim()) {
+  console.log("❌ No staged changes to commit");
+  process.exit(1);
+  }
   const message = await generateCommitMessage(diff);
 
   console.log("\n✨ Suggested Commit Message:\n");
